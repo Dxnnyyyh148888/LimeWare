@@ -143,7 +143,7 @@ TextLabel2.Parent = Frame1
 TextLabel2.BackgroundColor3 = Color3.fromRGB(52,43,117)
 TextLabel2.Position = UDim2.new(0.8,0,0.8)
 TextLabel2.Size = UDim2.new(0.2,0,0.2)
-TextLabel2.Text = "T.me/Dxnnylol"
+TextLabel2.Text = "t.me/Dxnnylol"
 TextLabel2.TextColor3 = Color3.fromRGB(248,248,248)
 TextLabel2.TextSize = 12
 
