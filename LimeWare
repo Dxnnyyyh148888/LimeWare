@@ -201,7 +201,7 @@ end)
 local mj = Instance.new("TextButton")
 mj.Parent = Frame1
 mj.Size = UDim2.new(0.3,0,0.2)
-mj.Position = UDim2.new(0.3,0,0.35)
+mj.Position = UDim2.new(0.3,0,0.4)
 mj.BackgroundColor3 = Color3.fromRGB(52,43,117)
 mj.TextColor3 = Color3.fromRGB(255,255,255)
 mj.TextSize = 12
@@ -219,7 +219,7 @@ end)
 local mk = Instance.new("TextButton")
 mk.Parent = Frame1
 mk.Size = UDim2.new(0.3,0,0.2)
-mk.Position = UDim2.new(0.65,0,0.65)
+mk.Position = UDim2.new(0.65,0,0.4)
 mk.BackgroundColor3 = Color3.fromRGB(52,43,117)
 mk.TextColor3 = Color3.fromRGB(255,255,255)
 mk.TextSize = 12
