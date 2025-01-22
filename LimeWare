@@ -253,3 +253,7 @@ mm.Text = "Fling Things"
 local mmm = Instance.new("UICorner")
 mmm.Parent = mm
 mmm.CornerRadius = UDim.new(0.2,0)
+
+TextButton3.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dxnnyyyh148888/Hubs/refs/heads/main/Hubs"))()
+end)
