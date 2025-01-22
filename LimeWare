@@ -166,6 +166,17 @@ local it = Instance.new("UICorner")
 it.Parent = Ti
 it.CornerRadius = UDim.new(0.7,0)
 
+local ml = Instance.new("TextButton")
+ml.Parent = Frame1
+ml.Size = UDim2.new(0.1,0,0.1)
+ml.Position = UDim2.new(0.65,0,0.8)
+ml.BackgroundColor3 = Color3.fromRGB(52,43,117)
+ml.TextSize = 12
+ml.Text = "1"
+
+local mll = Instance.new("UICorner")
+mll.CornerRadius = UDim.new(1,0)
+
 local bi = Instance.new("TextButton")
 bi.Parent = Frame1
 bi.Size = UDim2.new(0.3,0,0.2)
