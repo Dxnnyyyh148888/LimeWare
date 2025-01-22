@@ -264,4 +264,6 @@ TextButton1.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dxnnyyyh148888/Admins/refs/heads/main/Admins"))()
 end)
 
-print("end")
+BloxFruitButton.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dxnnyyyh148888/Bf/refs/heads/main/Bf"))()
+end)
