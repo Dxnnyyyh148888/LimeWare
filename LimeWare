@@ -8,7 +8,7 @@ TextLabel1.Position = UDim2.new(0.25,0,0.10)
 TextLabel1.Size = UDim2.new(0.4,0,0.1)
 TextLabel1.Active = true
 TextLabel1.Font = Enum.Font.Michroma
-TextLabel1.Text = "LimeWave"
+TextLabel1.Text = "LimeWare"
 TextLabel1.Draggable = true
 TextLabel1.TextSize = 30
 TextLabel1.TextColor3 = Color3.fromRGB(255,255,255)
@@ -231,4 +231,8 @@ mn.CornerRadius = UDim.new(0.25,0)
 
 mk.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/taWbKhx0"))()
+end)
+
+MurderMysteryButton.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dxnnyyyh148888/Mm2/refs/heads/main/Mm2"))()
 end)
