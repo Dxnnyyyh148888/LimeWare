@@ -267,3 +267,7 @@ end)
 BloxFruitButton.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dxnnyyyh148888/Bf/refs/heads/main/Bf"))()
 end)
+
+BuildABoatButton.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dxnnyyyh148888/Babft/refs/heads/main/Babft"))()
+end)
