@@ -1,3 +1,5 @@
+print("LimeWare Executed!")
+
 local ScreenGui1 = Instance.new("ScreenGui") 
 ScreenGui1.Parent = game.Players.LocalPlayer.PlayerGui
 
@@ -261,3 +263,5 @@ end)
 TextButton1.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dxnnyyyh148888/Admins/refs/heads/main/Admins"))()
 end)
+
+print("end")
