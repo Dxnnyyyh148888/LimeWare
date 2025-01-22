@@ -168,7 +168,7 @@ it.CornerRadius = UDim.new(0.7,0)
 
 local ml = Instance.new("TextButton")
 ml.Parent = Frame1
-ml.Size = UDim2.new(0.075,0,0.2)
+ml.Size = UDim2.new(0.08,0,0.2)
 ml.Position = UDim2.new(0.7,0,0.8)
 ml.BackgroundColor3 = Color3.fromRGB(52,43,117)
 ml.TextSize = 18
