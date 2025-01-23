@@ -53,7 +53,7 @@ UICorner3.CornerRadius = UDim.new(0.5,0)
 
 local TextButton2 = Instance.new("TextButton") 
 TextButton2.Parent = TextLabel1
-TextButton2.BackgroundColor3 = Color3.fromRGB(62,53,127)
+TextButton2.BackgroundColor3 = Color3.fromRGB(82,73,147)
 TextButton2.Size = UDim2.new(0.1,0,1)
 TextButton2.Position = UDim2.new(0.9,0,0)
 TextButton2.Text = "-"
@@ -173,7 +173,7 @@ it.CornerRadius = UDim.new(0.7,0)
 local ml = Instance.new("TextButton")
 ml.Parent = Frame1
 ml.Size = UDim2.new(0.08,0,0.2)
-ml.Position = UDim2.new(0.75,0,0.8)
+ml.Position = UDim2.new(0.725,0,0.8)
 ml.BackgroundColor3 = Color3.fromRGB(52,43,117)
 ml.TextSize = 22
 ml.Font = Enum.Font.Code
