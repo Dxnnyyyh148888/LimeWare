@@ -5,7 +5,7 @@ ScreenGui1.Parent = game.Players.LocalPlayer.PlayerGui
 
 local TextLabel1 = Instance.new("TextLabel") 
 TextLabel1.Parent = ScreenGui1
-TextLabel1.BackgroundColor3 = Color3.fromRGB(0,203,170)
+TextLabel1.BackgroundColor3 = Color3.fromRGB(52,43,177)
 TextLabel1.Position = UDim2.new(0.25,0,0.10)
 TextLabel1.Size = UDim2.new(0.4,0,0.1)
 TextLabel1.Active = true
@@ -53,11 +53,11 @@ UICorner3.CornerRadius = UDim.new(0.5,0)
 
 local TextButton2 = Instance.new("TextButton") 
 TextButton2.Parent = TextLabel1
-TextButton2.BackgroundColor3 = Color3.fromRGB(0,167,0)
+TextButton2.BackgroundColor3 = Color3.fromRGB(62,53,127)
 TextButton2.Size = UDim2.new(0.1,0,1)
 TextButton2.Position = UDim2.new(0.9,0,0)
 TextButton2.Text = "-"
-TextButton2.TextColor3 = Color3.fromRGB(0,203,170)
+TextButton2.TextColor3 = Color3.fromRGB(52,43,177)
 TextButton2.TextSize = 30
 
 local UICorner4 = Instance.new("UICorner") 
