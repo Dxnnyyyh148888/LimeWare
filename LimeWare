@@ -1,6 +1,6 @@
 print("LimeWare Executed!")
 
-local ScreenGui1 = Instance.new("ScreenGui") 
+local ScreenGui1 = Instance.new("ScreenGui")
 ScreenGui1.Parent = game.Players.LocalPlayer.PlayerGui
 
 local TextLabel1 = Instance.new("TextLabel") 
@@ -56,16 +56,20 @@ TextButton2.Parent = TextLabel1
 TextButton2.BackgroundColor3 = Color3.fromRGB(0,167,0)
 TextButton2.Size = UDim2.new(0.1,0,1)
 TextButton2.Position = UDim2.new(0.9,0,0)
-TextButton2.Text = "x"
+TextButton2.Text = "–"
 TextButton2.TextColor3 = Color3.fromRGB(0,203,170)
-TextButton2.TextSize = 25
+TextButton2.TextSize = 30
 
 local UICorner4 = Instance.new("UICorner") 
 UICorner4.Parent = TextButton2
 UICorner4.CornerRadius = UDim.new(0.3,0)
 
-TextButton2.MouseButton1Click:Connect(function() 
-TextLabel1: Destroy()
+TextButton2.MouseButton1Click:Connect(function()
+    if Frame1.Visible then
+        Frame1.Visible = false
+    else
+        Frame1.Visible = true
+    end
 end)
 
 local ImageButton1 = Instance.new("ImageButton") 
