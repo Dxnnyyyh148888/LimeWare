@@ -293,3 +293,58 @@ end)
 BuildABoatButton.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dxnnyyyh148888/Babft/refs/heads/main/Babft"))()
 end)
+
+local function createHandle(parent)
+    local handle = Instance.new("Frame")
+    handle.Parent = parent
+    handle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    handle.Size = UDim2.new(0.5, 0, 0.05, 0)
+    handle.Position = UDim2.new(0.25, 0, 1, 0)
+    handle.AnchorPoint = Vector2.new(0.5, 0)
+    handle.ZIndex = 2
+
+    local uiCorner = Instance.new("UICorner")
+    uiCorner.Parent = handle
+    uiCorner.CornerRadius = UDim.new(1, 0)
+
+    return handle
+end
+
+local Handle = createHandle(Frame1)
+
+local userInput = game:GetService("UserInputService")
+local runService = game:GetService("RunService")
+local dragging = false
+local lastY = nil
+local speedThreshold = 200
+local destroyDebounce = false
+
+Handle.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = true
+        lastY = input.Position.Y
+    end
+end)
+
+userInput.InputEnded:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = false
+        lastY = nil
+    end
+end)
+
+runService.RenderStepped:Connect(function()
+    if dragging and not destroyDebounce then
+        local mousePosition = userInput:GetMouseLocation()
+        local deltaY = mousePosition.Y - lastY
+        lastY = mousePosition.Y
+
+        local newY = TextLabel1.Position.Y.Scale + deltaY / workspace.CurrentCamera.ViewportSize.Y
+        TextLabel1.Position = UDim2.new(TextLabel1.Position.X.Scale, 0, math.clamp(newY, 0, 1), 0)
+
+        if math.abs(deltaY) > speedThreshold then
+            destroyDebounce = true
+            TextLabel1:Destroy()
+        end
+    end
+end)
