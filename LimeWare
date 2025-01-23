@@ -57,7 +57,7 @@ TextButton2.BackgroundColor3 = Color3.fromRGB(82,73,147)
 TextButton2.Size = UDim2.new(0.1,0,1)
 TextButton2.Position = UDim2.new(0.9,0,0)
 TextButton2.Text = "-"
-TextButton2.TextColor3 = Color3.fromRGB(52,43,177)
+TextButton2.TextColor3 = Color3.fromRGB(255,255,255)
 TextButton2.TextSize = 30
 
 local UICorner4 = Instance.new("UICorner") 
