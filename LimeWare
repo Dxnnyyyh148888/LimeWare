@@ -85,7 +85,7 @@ local tm = Instance.new("UICorner")
 tm.Parent = tt
 tm.CornerRadius = UDim.new(0.3,0)
 
-tm.MouseButton1Click:Connect(function()
+tt.MouseButton1Click:Connect(function()
 TextLabel1: Destroy()
 end)
 
