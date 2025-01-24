@@ -78,7 +78,7 @@ tt.Size = UDim2.new(0.1,0,1)
 tt.Position = UDim2.new(0,0,0.8)
 tt.BackgroundColor3 = Color3.fromRGB(82,73,147)
 tt.TextColor3 = Color3.fromRGB(255,255,255)
-tt.Text = x
+tt.Text = "x"
 tt.textSize = 30
 
 local tm = Instance.new("UICorner")
