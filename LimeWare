@@ -55,7 +55,7 @@ local TextButton2 = Instance.new("TextButton")
 TextButton2.Parent = TextLabel1
 TextButton2.BackgroundColor3 = Color3.fromRGB(82,73,147)
 TextButton2.Size = UDim2.new(0.1,0,1)
-TextButton2.Position = UDim2.new(0.9,0,0)
+TextButton2.Position = UDim2.new(0.8,0,0)
 TextButton2.Text = "-"
 TextButton2.TextColor3 = Color3.fromRGB(255,255,255)
 TextButton2.TextSize = 30
@@ -75,7 +75,7 @@ end)
 local tt = Instance.new("TextButton")
 tt.Parent = TextLabel1
 tt.Size = UDim2.new(0.1,0,1)
-tt.Position = UDim2.new(0.8,0,0)
+tt.Position = UDim2.new(0.9,0,0)
 tt.BackgroundColor3 = Color3.fromRGB(82,73,147)
 tt.TextColor3 = Color3.fromRGB(255,255,255)
 tt.Text = "x"
@@ -167,7 +167,7 @@ TextLabel2.Position = UDim2.new(0.8,0,0.8)
 TextLabel2.Size = UDim2.new(0.2,0,0.2)
 TextLabel2.Text = "t.me/Dxnnylol"
 TextLabel2.TextColor3 = Color3.fromRGB(248,248,248)
-TextLabel2.TextSize = 12
+TextLabel2.TextSize = 9
 
 local UICorner1 = Instance.new("UICorner") 
 UICorner1.Parent = TextLabel2
