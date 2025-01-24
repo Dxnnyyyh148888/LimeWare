@@ -75,7 +75,7 @@ end)
 local tt = Instance.new("TextButton")
 tt.Parent = TextLabel1
 tt.Size = UDim2.new(0.1,0,1)
-tt.Position = UDim2.new(0,0,0.8)
+tt.Position = UDim2.new(0.8,0,0)
 tt.BackgroundColor3 = Color3.fromRGB(82,73,147)
 tt.TextColor3 = Color3.fromRGB(255,255,255)
 tt.Text = "x"
