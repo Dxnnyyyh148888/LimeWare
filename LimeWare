@@ -79,10 +79,10 @@ tt.Position = UDim2.new(0,0,0.8)
 tt.BackgroundColor3 = Color3.fromRGB(82,73,147)
 tt.TextColor3 = Color3.fromRGB(255,255,255)
 tt.Text = "x"
-tt.textSize = 30
+tt.TextSize = 30
 
 local tm = Instance.new("UICorner")
-tm.parent = tt
+tm.Parent = tt
 tm.CornerRadius = UDim.new(0.3,0)
 
 tm.MouseButton1Click:Connect(function()
