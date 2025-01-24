@@ -55,7 +55,7 @@ local TextButton2 = Instance.new("TextButton")
 TextButton2.Parent = TextLabel1
 TextButton2.BackgroundColor3 = Color3.fromRGB(82,73,147)
 TextButton2.Size = UDim2.new(0.1,0,1)
-TextButton2.Position = UDim2.new(0.9,0,0)
+TextButton2.Position = UDim2.new(0.8,0,0)
 TextButton2.Text = "-"
 TextButton2.TextColor3 = Color3.fromRGB(255,255,255)
 TextButton2.TextSize = 30
@@ -72,12 +72,28 @@ TextButton2.MouseButton1Click:Connect(function()
     end
 end)
 
+local tt = Instance.new("TextButton")
+tt.Parent = TextLabel1
+tt.Size = UDim2.new(0.1,0,1)
+tt.Position = UDim2.new(0,0,0.8)
+tt.BackgroundColor3 = Color3.fromRGB(82,73,147)
+tt.TextColor3 = Color3.fromRGB(255,255,255)
+tt.Text = x
+tt.textSize = 30
+
+Local tm = Instance.new("UICorner")
+tm.parent = tt
+tm.CornerRadius = UDim.new(0.3,0)
+
+tm.MouseButton1Click:Connect(function()
+TextLabel1: Destroy()
+end)
+
 local ImageButton1 = Instance.new("ImageButton") 
 ImageButton1.Parent = TextLabel1
 ImageButton1.Size = UDim2.new(0.1,0,1)
 ImageButton1.BackgroundTransparency = 1
 ImageButton1.Image = "rbxassetid://130891318564050"
-
 
 local TextButton3 = Instance.new("TextButton") 
 TextButton3.Parent = ScrollingFrame1
