@@ -54,8 +54,9 @@ UICorner3.CornerRadius = UDim.new(0.5,0)
 local l = Instance.new("Frame")
 l.Parent = TextLabel1
 l.Size = UDim2.new(0.05,0,0.9)
-l.Position = UDim2.new(0.85,0,0.05)
+l.Position = UDim2.new(0.88,0,0.05)
 l.BackgroundColor3 = Color3.fromRGB(82,73,147)
+l.BorderSizePixel = 0
 
 local TextButton2 = Instance.new("TextButton") 
 TextButton2.Parent = TextLabel1
