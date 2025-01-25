@@ -179,7 +179,7 @@ Ti.Size = UDim2.new(0.3,0,0.1)
 Ti.Position = UDim2.new(0.5,0,0)
 Ti.BackgroundColor3 = Color3.fromRGB(52,43,117)
 Ti.Text = "My Scripts"
-Ti.TextSize = 10
+Ti.TextSize = 9
 Ti.TextColor3 = Color3.fromRGB(255,255,255)
 
 local it = Instance.new("UICorner")
