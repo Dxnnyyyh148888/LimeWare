@@ -1,4 +1,4 @@
-print("LimeWare Executed!")
+print("LimeWare Executed!!")
 
 local ScreenGui1 = Instance.new("ScreenGui")
 ScreenGui1.Parent = game.Players.LocalPlayer.PlayerGui
